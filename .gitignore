@@ -1,0 +1,35 @@
+# Environment and secrets — never commit these
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+*.pem
+*.key
+
+# Local data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Logs and OS/editor
+*.log
+debug-*.log
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
